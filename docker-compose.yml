@@ -1,7 +1,8 @@
 version: '3.7'
 
 services:
-            
+
+    # SSH Honeypot Service
     ssh_honeypot:
         container_name: ssh_honeypot
         build:
@@ -19,6 +20,7 @@ services:
         environment:
             - CHOKIDAR_USEPOLLING=true
             
+    # SSH Honeypot Downloader Service
     ssh_honeypot_downloader:
         container_name: ssh_honeypot_downloader
         build:
@@ -34,8 +36,10 @@ services:
             - CHOKIDAR_USEPOLLING=true
         depends_on:
             - "ssh_honeypot_redis_db"
+        # Wait for Redis to be ready before executing the command
         command: ["./wait-for-it.sh", "ssh_honeypot_redis_db:6379", "--", "python", "ssh_honeypot_downloader.py"]
             
+    # Redis Database for SSH Honeypot
     ssh_honeypot_redis_db:
         container_name: ssh_honeypot_redis_db
         image: redis:6.0.7-alpine

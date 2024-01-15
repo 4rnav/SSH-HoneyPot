@@ -9,14 +9,14 @@
 2023-01-05 16:49:16,190 - root - INFO - Client compression (172.20.114.224): none
 2023-01-05 16:49:16,190 - root - INFO - Client SSH version (172.20.114.224): SSH-2.0-OpenSSH_9.1
 2023-01-05 16:49:16,190 - root - INFO - Client SSH cipher (172.20.114.224): aes128-ctr
-2023-01-05 16:49:23,158 - root - INFO - Command receied (172.20.114.224): pwd
+2023-01-05 16:49:23,158 - root - INFO - Command received (172.20.114.224): pwd
 2023-01-05 16:49:23,158 - root - INFO - Response from honeypot (172.20.114.224): 
-2023-01-05 16:49:24,831 - root - INFO - Command receied (172.20.114.224): ls
+2023-01-05 16:49:24,831 - root - INFO - Command received (172.20.114.224): ls
 2023-01-05 16:49:24,831 - root - INFO - Response from honeypot (172.20.114.224): 
-2023-01-05 16:49:34,304 - root - INFO - Command receied (172.20.114.224): cat user
-2023-01-05 16:49:36,264 - root - INFO - Command receied (172.20.114.224): ls
+2023-01-05 16:49:34,304 - root - INFO - Command received (172.20.114.224): cat user
+2023-01-05 16:49:36,264 - root - INFO - Command received (172.20.114.224): ls
 2023-01-05 16:49:36,264 - root - INFO - Response from honeypot (172.20.114.224): 
-2023-01-05 16:49:47,418 - root - INFO - Command receied (172.20.114.224): cat users.txt
+2023-01-05 16:49:47,418 - root - INFO - Command received (172.20.114.224): cat users.txt
 2023-01-05 16:49:57,458 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
 2023-01-05 16:50:08,009 - root - INFO - New connection from: 172.20.114.224
 2023-01-05 16:50:08,010 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.1)
@@ -40,7 +40,7 @@
 2023-01-06 08:00:29,463 - root - INFO - Client compression (192.168.36.229): none
 2023-01-06 08:00:29,463 - root - INFO - Client SSH version (192.168.36.229): SSH-2.0-OpenSSH_9.1
 2023-01-06 08:00:29,464 - root - INFO - Client SSH cipher (192.168.36.229): aes128-ctr
-2023-01-06 08:00:35,285 - root - INFO - Command receied (192.168.36.229): ls
+2023-01-06 08:00:35,285 - root - INFO - Command received (192.168.36.229): ls
 2023-01-06 08:00:35,285 - root - INFO - Response from honeypot (192.168.36.229): 
 2023-01-06 08:00:45,331 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
 2023-01-12 08:25:43,111 - root - INFO - New connection from: 192.168.171.229
@@ -58,7 +58,7 @@
 2023-01-12 08:26:10,417 - root - INFO - Client compression (192.168.171.229): none
 2023-01-12 08:26:10,417 - root - INFO - Client SSH version (192.168.171.229): SSH-2.0-OpenSSH_9.1
 2023-01-12 08:26:10,417 - root - INFO - Client SSH cipher (192.168.171.229): aes128-ctr
-2023-01-12 08:26:26,906 - root - INFO - Command receied (192.168.171.229): exit
+2023-01-12 08:26:26,906 - root - INFO - Command received (192.168.171.229): exit
 2023-01-12 08:26:39,712 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
 2023-01-12 08:27:02,575 - root - INFO - New connection from: 192.168.171.229
 2023-01-12 08:27:02,577 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.1)
@@ -82,7 +82,7 @@
 2023-01-12 08:29:11,179 - root - INFO - Client compression (192.168.171.229): none
 2023-01-12 08:29:11,180 - root - INFO - Client SSH version (192.168.171.229): SSH-2.0-OpenSSH_9.1
 2023-01-12 08:29:11,180 - root - INFO - Client SSH cipher (192.168.171.229): aes128-ctr
-2023-01-12 08:29:15,248 - root - INFO - Command receied (192.168.171.229): cd
+2023-01-12 08:29:15,248 - root - INFO - Command received (192.168.171.229): cd
 2023-01-12 08:29:25,298 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
 2023-02-23 14:33:13,237 - root - INFO - New connection from: 172.20.114.73
 2023-02-23 14:33:13,245 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.1)
@@ -106,9 +106,9 @@
 2023-02-23 14:34:15,805 - root - INFO - Client compression (172.20.114.73): none
 2023-02-23 14:34:15,806 - root - INFO - Client SSH version (172.20.114.73): SSH-2.0-OpenSSH_9.1
 2023-02-23 14:34:15,806 - root - INFO - Client SSH cipher (172.20.114.73): aes128-ctr
-2023-02-23 14:34:19,879 - root - INFO - Command receied (172.20.114.73): ls
+2023-02-23 14:34:19,879 - root - INFO - Command received (172.20.114.73): ls
 2023-02-23 14:34:19,879 - root - INFO - Response from honeypot (172.20.114.73): 
-2023-02-23 14:34:27,778 - root - INFO - Command receied (172.20.114.73): cat users.txt
+2023-02-23 14:34:27,778 - root - INFO - Command received (172.20.114.73): cat users.txt
 2023-02-23 14:34:37,820 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
 2023-02-23 14:34:50,415 - root - INFO - New connection from: 172.20.114.73
 2023-02-23 14:34:50,416 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.1)
@@ -122,10 +122,10 @@
 2023-02-23 14:34:53,795 - root - INFO - Client compression (172.20.114.73): none
 2023-02-23 14:34:53,795 - root - INFO - Client SSH version (172.20.114.73): SSH-2.0-OpenSSH_9.1
 2023-02-23 14:34:53,795 - root - INFO - Client SSH cipher (172.20.114.73): aes128-ctr
-2023-02-23 14:34:59,933 - root - INFO - Command receied (172.20.114.73): ls
+2023-02-23 14:34:59,933 - root - INFO - Command received (172.20.114.73): ls
 2023-02-23 14:34:59,933 - root - INFO - Response from honeypot (172.20.114.73): 
-2023-02-23 14:35:06,897 - root - INFO - Command receied (172.20.114.73): cat users.txt
-2023-02-23 14:35:13,040 - root - INFO - Command receied (172.20.114.73): pwd
+2023-02-23 14:35:06,897 - root - INFO - Command received (172.20.114.73): cat users.txt
+2023-02-23 14:35:13,040 - root - INFO - Command received (172.20.114.73): pwd
 2023-02-23 14:35:13,041 - root - INFO - Response from honeypot (172.20.114.73): 
 2023-02-23 14:35:23,486 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
 2023-02-23 14:36:32,815 - root - INFO - New connection from: 172.20.114.73
@@ -164,8 +164,8 @@
 2023-02-23 14:39:19,627 - root - INFO - Client compression (172.20.114.73): none
 2023-02-23 14:39:19,627 - root - INFO - Client SSH version (172.20.114.73): SSH-2.0-OpenSSH_9.1
 2023-02-23 14:39:19,627 - root - INFO - Client SSH cipher (172.20.114.73): aes128-ctr
-2023-02-23 14:39:30,169 - root - INFO - Command receied (172.20.114.73): touch run.txt
-2023-02-23 14:39:31,910 - root - INFO - Command receied (172.20.114.73): ls
+2023-02-23 14:39:30,169 - root - INFO - Command received (172.20.114.73): touch run.txt
+2023-02-23 14:39:31,910 - root - INFO - Command received (172.20.114.73): ls
 2023-02-23 14:39:31,910 - root - INFO - Response from honeypot (172.20.114.73): 
 2023-02-23 14:39:41,951 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
 2023-02-23 14:41:58,757 - root - INFO - New connection from: 172.20.114.73
@@ -180,10 +180,10 @@
 2023-02-23 14:42:02,240 - root - INFO - Client compression (172.20.114.73): none
 2023-02-23 14:42:02,240 - root - INFO - Client SSH version (172.20.114.73): SSH-2.0-OpenSSH_9.1
 2023-02-23 14:42:02,240 - root - INFO - Client SSH cipher (172.20.114.73): aes128-ctr
-2023-02-23 14:42:08,992 - root - INFO - Command receied (172.20.114.73): ls
+2023-02-23 14:42:08,992 - root - INFO - Command received (172.20.114.73): ls
 2023-02-23 14:42:08,993 - root - INFO - Response from honeypot (172.20.114.73): 
-2023-02-23 14:42:16,775 - root - INFO - Command receied (172.20.114.73): touch file
-2023-02-23 14:42:18,004 - root - INFO - Command receied (172.20.114.73): ls
+2023-02-23 14:42:16,775 - root - INFO - Command received (172.20.114.73): touch file
+2023-02-23 14:42:18,004 - root - INFO - Command received (172.20.114.73): ls
 2023-02-23 14:42:18,004 - root - INFO - Response from honeypot (172.20.114.73): 
 2023-02-23 14:42:28,047 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
 2023-02-23 14:43:39,217 - root - INFO - New connection from: 172.20.114.73
@@ -211,7 +211,7 @@
 2023-02-23 14:44:26,415 - root - INFO - Client compression (172.20.114.73): none
 2023-02-23 14:44:26,415 - root - INFO - Client SSH version (172.20.114.73): SSH-2.0-OpenSSH_9.1
 2023-02-23 14:44:26,415 - root - INFO - Client SSH cipher (172.20.114.73): aes128-ctr
-2023-02-23 14:44:29,383 - root - INFO - Command receied (172.20.114.73): wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.17.2.tar.xz
+2023-02-23 14:44:29,383 - root - INFO - Command received (172.20.114.73): wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.17.2.tar.xz
 2023-02-23 14:44:39,425 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
 2023-02-23 14:53:26,811 - root - INFO - New connection from: 172.20.114.73
 2023-02-23 14:53:26,812 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.1)
@@ -237,5 +237,5 @@
 2023-02-23 14:53:56,883 - root - INFO - Client compression (172.20.114.73): none
 2023-02-23 14:53:56,883 - root - INFO - Client SSH version (172.20.114.73): SSH-2.0-OpenSSH_9.1
 2023-02-23 14:53:56,883 - root - INFO - Client SSH cipher (172.20.114.73): aes128-ctr
-2023-02-23 14:53:59,652 - root - INFO - Command receied (172.20.114.73): wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.17.2.tar.xz
+2023-02-23 14:53:59,652 - root - INFO - Command received (172.20.114.73): wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.17.2.tar.xz
 2023-02-23 14:54:09,848 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
